@@ -21,7 +21,7 @@
 		28EF2FB082DC707874BF557E /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB4ECB7064E91B88DFEEA5 /* ButtonBarViewCell.swift */; };
 		2A85D4AB3E4E0B0DBCCCBEF1 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFF7D3AEBBFD5E327C90F9 /* NSCalendar+Timepiece.swift */; };
 		2BEDE5B50268E2C8273950E4 /* VTAcknowledgementsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DD3A90E67C809C5F6BD2A3 /* VTAcknowledgementsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E2FD344F31C1D4E0F0DC1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */; };
+		2E2FD344F31C1D4E0F0DC1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2FD087A1B38AB351EF402636 /* VTAcknowledgementsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3646F95F848078E726688D0 /* VTAcknowledgementsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31AC0416B682B4579702C5D9 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE261F9CA7809E6BA4841B62 /* TwitterPagerTabStripViewController.swift */; };
 		33FEB9DDFC8D5AD0B8DAD27C /* Pods-trySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4708DC14ED9F65BFD09103F /* Pods-trySwift-dummy.m */; };
@@ -36,7 +36,7 @@
 		4F936FE627D45D75F0642614 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3B079EDADFE0708CEC745C /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53E4D3740B4FFE3534824168 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC2AB4C61A02A1E5DF43C /* ButtonBarPagerTabStripViewController.swift */; };
 		5E33A40827124DAB1C66278B /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC5CC4DBC875857A87CF9F /* NSCalendarUnit+Timepiece.swift */; };
-		5F85C9C5766C8DF98F3C6C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */; };
+		5F85C9C5766C8DF98F3C6C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		6B5C575026F82A197BAA5F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
 		6C40BF61C121D75A52DF126F /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9935F191F8702E6A29B0 /* NSDate+Timepiece.swift */; };
 		7455913BBAA9C038147F77A9 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C3F28C1F55F80393A350D /* ButtonBarView.swift */; };

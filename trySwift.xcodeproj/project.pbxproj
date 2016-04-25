@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71FA80BF7F20F8E8E9C8903F /* Pods_try_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CAC6469D6AC2F99356E9DC /* Pods_try_Extension.framework */; };
-		EDE2ECE0888AE97C5817C447 /* Pods_trySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080425B1A50FECCB51E84216 /* Pods_trySwift.framework */; };
+		EDE2ECE0888AE97C5817C447 /* Pods_trySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080425B1A50FECCB51E84216 /* Pods_trySwift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		FA39E8C71C6AB7640074B6BE /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8C61C6AB7640074B6BE /* ScheduleViewController.swift */; };
 		FA39E8CA1C6AE4080074B6BE /* NavTabButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E8C91C6AE4080074B6BE /* NavTabButtonCell.xib */; };
 		FA39E8CD1C6AF8C80074B6BE /* NSLocaleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8CC1C6AF8C80074B6BE /* NSLocaleExtension.swift */; };
@@ -22,13 +22,6 @@
 		FA39E8E81C6B32F80074B6BE /* SessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8E61C6B32F80074B6BE /* SessionTableViewCell.swift */; };
 		FA39E8E91C6B32F80074B6BE /* SessionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E8E71C6B32F80074B6BE /* SessionTableViewCell.xib */; };
 		FA39E8EE1C6C034B0074B6BE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8ED1C6C034B0074B6BE /* UIColorExtension.swift */; };
-		FA39E8F11C6C13D70074B6BE /* QASession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8F01C6C13D70074B6BE /* QASession.swift */; };
-		FA39E8F41C6C24240074B6BE /* QASessionDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8F31C6C24240074B6BE /* QASessionDataSourceProtocol.swift */; };
-		FA39E8F61C6C244A0074B6BE /* QASessionDataSourceDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8F51C6C244A0074B6BE /* QASessionDataSourceDay1.swift */; };
-		FA39E8FE1C6C32510074B6BE /* QASessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8FD1C6C32510074B6BE /* QASessionsViewController.swift */; };
-		FA39E9001C6C32A50074B6BE /* QASessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E8FF1C6C32A50074B6BE /* QASessionsTableViewController.swift */; };
-		FA39E9031C6C33870074B6BE /* QASessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E9011C6C33870074B6BE /* QASessionTableViewCell.swift */; };
-		FA39E9041C6C33870074B6BE /* QASessionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E9021C6C33870074B6BE /* QASessionTableViewCell.xib */; };
 		FA39E9081C6C43760074B6BE /* SpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E9071C6C43760074B6BE /* SpeakersViewController.swift */; };
 		FA39E90B1C6C45FD0074B6BE /* SpeakerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39E9091C6C45FD0074B6BE /* SpeakerTableViewCell.swift */; };
 		FA39E90C1C6C45FD0074B6BE /* SpeakerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA39E90A1C6C45FD0074B6BE /* SpeakerTableViewCell.xib */; };
@@ -122,7 +115,7 @@
 		};
 		FA65B5BE1C79895A00DCAF0B /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
@@ -155,13 +148,6 @@
 		FA39E8E61C6B32F80074B6BE /* SessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTableViewCell.swift; sourceTree = "<group>"; };
 		FA39E8E71C6B32F80074B6BE /* SessionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SessionTableViewCell.xib; sourceTree = "<group>"; };
 		FA39E8ED1C6C034B0074B6BE /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		FA39E8F01C6C13D70074B6BE /* QASession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QASession.swift; sourceTree = "<group>"; };
-		FA39E8F31C6C24240074B6BE /* QASessionDataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QASessionDataSourceProtocol.swift; sourceTree = "<group>"; };
-		FA39E8F51C6C244A0074B6BE /* QASessionDataSourceDay1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QASessionDataSourceDay1.swift; sourceTree = "<group>"; };
-		FA39E8FD1C6C32510074B6BE /* QASessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QASessionsViewController.swift; sourceTree = "<group>"; };
-		FA39E8FF1C6C32A50074B6BE /* QASessionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QASessionsTableViewController.swift; sourceTree = "<group>"; };
-		FA39E9011C6C33870074B6BE /* QASessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QASessionTableViewCell.swift; sourceTree = "<group>"; };
-		FA39E9021C6C33870074B6BE /* QASessionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QASessionTableViewCell.xib; sourceTree = "<group>"; };
 		FA39E9071C6C43760074B6BE /* SpeakersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersViewController.swift; sourceTree = "<group>"; };
 		FA39E9091C6C45FD0074B6BE /* SpeakerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewCell.swift; sourceTree = "<group>"; };
 		FA39E90A1C6C45FD0074B6BE /* SpeakerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerTableViewCell.xib; sourceTree = "<group>"; };
@@ -279,7 +265,6 @@
 			isa = PBXGroup;
 			children = (
 				FA39E8FB1C6C26150074B6BE /* Schedule */,
-				FA39E8FC1C6C32120074B6BE /* Q&A */,
 				FA39E9061C6C43480074B6BE /* Speakers */,
 				FA39E9111C6C81940074B6BE /* SponsorsViewController */,
 				FA65B57D1C6D7AFC00DCAF0B /* More */,
@@ -293,7 +278,6 @@
 			children = (
 				FA39E8C91C6AE4080074B6BE /* NavTabButtonCell.xib */,
 				FA39E8EA1C6BF13D0074B6BE /* SessionTableViewCell */,
-				FA39E9051C6C338C0074B6BE /* QASessionTableViewCell */,
 				FA39E90D1C6C46020074B6BE /* SpeakerTableViewCell */,
 				FA39E9181C6C83A90074B6BE /* SponsorTableViewCell */,
 				FA39E9271C6D29D60074B6BE /* TextTableViewCell */,
@@ -318,7 +302,6 @@
 			isa = PBXGroup;
 			children = (
 				FA39E8D61C6B05980074B6BE /* Session.swift */,
-				FA39E8F01C6C13D70074B6BE /* QASession.swift */,
 				FA39E8DA1C6B09CE0074B6BE /* Speaker.swift */,
 				FA39E8DC1C6B09DF0074B6BE /* Sponsor.swift */,
 				FA39E8DE1C6B17DC0074B6BE /* Presentation.swift */,
@@ -331,7 +314,6 @@
 			isa = PBXGroup;
 			children = (
 				FA39E8EF1C6C13B70074B6BE /* SessionDataSources */,
-				FA39E8F21C6C23E00074B6BE /* QASessionDataSources */,
 			);
 			name = DataSources;
 			sourceTree = "<group>";
@@ -354,15 +336,6 @@
 			name = SessionDataSources;
 			sourceTree = "<group>";
 		};
-		FA39E8F21C6C23E00074B6BE /* QASessionDataSources */ = {
-			isa = PBXGroup;
-			children = (
-				FA39E8F31C6C24240074B6BE /* QASessionDataSourceProtocol.swift */,
-				FA39E8F51C6C244A0074B6BE /* QASessionDataSourceDay1.swift */,
-			);
-			name = QASessionDataSources;
-			sourceTree = "<group>";
-		};
 		FA39E8FB1C6C26150074B6BE /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,24 +344,6 @@
 				FA65B57B1C6D5C4600DCAF0B /* SessionDetailsViewController.swift */,
 			);
 			name = Schedule;
-			sourceTree = "<group>";
-		};
-		FA39E8FC1C6C32120074B6BE /* Q&A */ = {
-			isa = PBXGroup;
-			children = (
-				FA39E8FD1C6C32510074B6BE /* QASessionsViewController.swift */,
-				FA39E8FF1C6C32A50074B6BE /* QASessionsTableViewController.swift */,
-			);
-			name = "Q&A";
-			sourceTree = "<group>";
-		};
-		FA39E9051C6C338C0074B6BE /* QASessionTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				FA39E9011C6C33870074B6BE /* QASessionTableViewCell.swift */,
-				FA39E9021C6C33870074B6BE /* QASessionTableViewCell.xib */,
-			);
-			name = QASessionTableViewCell;
 			sourceTree = "<group>";
 		};
 		FA39E9061C6C43480074B6BE /* Speakers */ = {
@@ -708,15 +663,15 @@
 				TargetAttributes = {
 					FA65B5971C79895A00DCAF0B = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = W6GNU64U6Q;
+						DevelopmentTeam = T7H9H92H6W;
 					};
 					FA65B5A31C79895A00DCAF0B = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = W6GNU64U6Q;
+						DevelopmentTeam = T7H9H92H6W;
 					};
 					FAFA15B71C69D31B00FEA4EA = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = W6GNU64U6Q;
+						DevelopmentTeam = T7H9H92H6W;
 					};
 					FAFA15CB1C69D31C00FEA4EA = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -773,7 +728,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA39E9171C6C83A40074B6BE /* SponsorTableViewCell.xib in Resources */,
-				FA39E9041C6C33870074B6BE /* QASessionTableViewCell.xib in Resources */,
 				FA39E8E91C6B32F80074B6BE /* SessionTableViewCell.xib in Resources */,
 				FA39E90C1C6C45FD0074B6BE /* SpeakerTableViewCell.xib in Resources */,
 				FA65B58E1C6D8B0600DCAF0B /* OrganizerTableViewCell.xib in Resources */,
@@ -923,15 +877,11 @@
 				FA65B5861C6D827B00DCAF0B /* Pods-acknowledgements.plist in Sources */,
 				FA39E90F1C6C81870074B6BE /* SponsorsViewController.swift in Sources */,
 				FA39E8D71C6B05980074B6BE /* Session.swift in Sources */,
-				FA39E8F61C6C244A0074B6BE /* QASessionDataSourceDay1.swift in Sources */,
-				FA39E9031C6C33870074B6BE /* QASessionTableViewCell.swift in Sources */,
 				FA39E92C1C6D310E0074B6BE /* TwitterFollowTableViewCell.swift in Sources */,
 				FA39E9081C6C43760074B6BE /* SpeakersViewController.swift in Sources */,
 				FA65B5881C6D844400DCAF0B /* Organizer.swift in Sources */,
 				FA39E8EE1C6C034B0074B6BE /* UIColorExtension.swift in Sources */,
 				FA39E8DF1C6B17DC0074B6BE /* Presentation.swift in Sources */,
-				FA39E8F11C6C13D70074B6BE /* QASession.swift in Sources */,
-				FA39E8FE1C6C32510074B6BE /* QASessionsViewController.swift in Sources */,
 				FA39E8E81C6B32F80074B6BE /* SessionTableViewCell.swift in Sources */,
 				FA65B58A1C6D8A5200DCAF0B /* OrganizersTableViewController.swift in Sources */,
 				FA39E91D1C6C8D100074B6BE /* WebDisplayViewController.swift in Sources */,
@@ -948,9 +898,7 @@
 				FA39E90B1C6C45FD0074B6BE /* SpeakerTableViewCell.swift in Sources */,
 				FA65B5911C6DA53600DCAF0B /* AboutTableViewController.swift in Sources */,
 				FA65B58D1C6D8B0600DCAF0B /* OrganizerTableViewCell.swift in Sources */,
-				FA39E9001C6C32A50074B6BE /* QASessionsTableViewController.swift in Sources */,
 				FA39E9251C6D29D20074B6BE /* TextTableViewCell.swift in Sources */,
-				FA39E8F41C6C24240074B6BE /* QASessionDataSourceProtocol.swift in Sources */,
 				FA39E8E11C6B31150074B6BE /* SessionDataSourceDay1.swift in Sources */,
 				FA39E8CD1C6AF8C80074B6BE /* NSLocaleExtension.swift in Sources */,
 				FA65B57C1C6D5C4600DCAF0B /* SessionDetailsViewController.swift in Sources */,
@@ -1036,7 +984,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				IBSC_MODULE = try_Extension;
 				INFOPLIST_FILE = try/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1055,7 +1003,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				IBSC_MODULE = try_Extension;
 				INFOPLIST_FILE = try/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1075,7 +1023,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "try Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = .com.mvkete.smconf;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1095,7 +1043,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "try Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = .com.mvkete.smconf;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -1198,7 +1146,7 @@
 				INFOPLIST_FILE = trySwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvkete.SMConf2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "trySwift/trySwift-Bridging-Header.h";
@@ -1218,7 +1166,7 @@
 				INFOPLIST_FILE = trySwift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.trySwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvkete.SMConf2016;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "trySwift/trySwift-Bridging-Header.h";

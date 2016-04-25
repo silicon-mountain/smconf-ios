@@ -24,7 +24,7 @@ extension Speaker {
     static let rebeccaEnonchong = Speaker(
         name: "Rebecca ENONCHONG",
         twitter: "africatechie",
-        image: Toucan(image: UIImage(named: "ashfurrow")!).maskWithEllipse().image,
+        image: Toucan(image: UIImage(named: "rebecca")!).maskWithEllipse().image,
         bio: isJapanese ? "jp_template" : "Ash Furrow is a Canadian iOS developer and author, currently working at Artsy. He has published four books, built many apps, and is a contributor to the open source community. On his blog, he writes about a range of topics, from interesting programming to explorations of analogue film photography.",
         presentation: Presentation(
             title: isJapanese ? "jp_template" : "An Artsy Testing Tour",
@@ -36,7 +36,7 @@ extension Speaker {
     static let denisNkweteyim = Speaker(
         name: "Dr. Denis NKWETEYIM",
         twitter: "nkweteyim",
-        image: Toucan(image: UIImage(named: "caesar")!).maskWithEllipse().image,
+        image: Toucan(image: UIImage(named: "denis")!).maskWithEllipse().image,
         bio: isJapanese ? "jp_template！" : "Caesar Wirth is software engineer at CyberAgent, Inc. where he's made a number of iOS apps involving e-commerce, social networks, and streaming video. Just like Swift is cross-platform, he's also written Android apps and backend servers. When not writing code, you can often find him hiking, bouldering, or scouting out delicious Taco Rice around Tokyo.",
         presentation: Presentation(
             title: isJapanese ? "jp_template" : "Soaring Swiftly - Server Side Swift.",
@@ -46,7 +46,7 @@ extension Speaker {
     static let bermondYange = Speaker(
         name: "Bermond YANGE",
         twitter: "BermondYange",
-        image: Toucan(image: UIImage(named: "squires")!).maskWithEllipse().image,
+        image: Toucan(image: UIImage(named: "bermond")!).maskWithEllipse().image,
         bio: isJapanese ? "jp_template" : "Jesse is a software developer who works on iOS at Instagram. He writes about Swift and Objective-C on his blog at jessesquires.com, and contributes to many open-source projects on GitHub. He loves running and learning new things, and is fueled primarily by black coffee and black metal.",
         presentation: Presentation(
             title: isJapanese ? "jp_template" : "Contributing to open source Swift",
@@ -56,7 +56,7 @@ extension Speaker {
     static let fritzEkwoge = Speaker(
         name: "Fritz EKWOGE",
         twitter: "ekwogefee",
-        image: Toucan(image: UIImage(named: "squires")!).maskWithEllipse().image,
+        image: Toucan(image: UIImage(named: "fritz")!).maskWithEllipse().image,
         bio: isJapanese ? "jp_template" : "Jesse is a software developer who works on iOS at Instagram. He writes about Swift and Objective-C on his blog at jessesquires.com, and contributes to many open-source projects on GitHub. He loves running and learning new things, and is fueled primarily by black coffee and black metal.",
         presentation: Presentation(
             title: isJapanese ? "jp_template" : "Contributing to open source Swift",
