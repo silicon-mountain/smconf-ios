@@ -1,0 +1,1693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0289DE8DC6869FA07D4F9A4D /* VTAcknowledgementsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E6A8B3E53161299A49D23D /* VTAcknowledgementsViewController-dummy.m */; };
+		071ECCA9DCF256482B10EFE3 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286928506F5C901CF44C3268 /* String+Timepiece.swift */; };
+		0AA2CC4CA1EDF5A349CF2D95 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221B556EEA3E7772EFCAB6B /* NSDateComponents+Timepiece.swift */; };
+		0ADCFAB554892FA1C7948923 /* Pods-trySwift-Timepiece-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A11CCEE60A58BB53455DC /* Pods-trySwift-Timepiece-dummy.m */; };
+		0DAA744E8A651E9DF3D37826 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0BD54EDF30DE0492D34D7AF /* ButtonCell.xib */; };
+		103E172A257C0F86F355CEB1 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3116D4E239EB92C7E194EC /* BaseButtonBarPagerTabStripViewController.swift */; };
+		115BDA0E7E94C7E495F2AB30 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8B3F0509084495CF09AA5 /* IndicatorInfo.swift */; };
+		14B2A0C8D2D635F96B776426 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6490FB225ED939973F165D16 /* XLPagerTabStrip.bundle */; };
+		1D21A5AD0EE9A694F40C0605 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F1700B5AA3A1D499B6FC0 /* PagerTabStripError.swift */; };
+		20FAAE4E7A11923E9E5B68E7 /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286928506F5C901CF44C3268 /* String+Timepiece.swift */; };
+		215C7C4BA014EFF877B69B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8EE35D7B6E2DC5C4A56C73 /* UIKit.framework */; };
+		28EF2FB082DC707874BF557E /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB4ECB7064E91B88DFEEA5 /* ButtonBarViewCell.swift */; };
+		2A85D4AB3E4E0B0DBCCCBEF1 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFF7D3AEBBFD5E327C90F9 /* NSCalendar+Timepiece.swift */; };
+		2BEDE5B50268E2C8273950E4 /* VTAcknowledgementsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DD3A90E67C809C5F6BD2A3 /* VTAcknowledgementsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2FD344F31C1D4E0F0DC1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */; };
+		2FD087A1B38AB351EF402636 /* VTAcknowledgementsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3646F95F848078E726688D0 /* VTAcknowledgementsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31AC0416B682B4579702C5D9 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE261F9CA7809E6BA4841B62 /* TwitterPagerTabStripViewController.swift */; };
+		33FEB9DDFC8D5AD0B8DAD27C /* Pods-trySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4708DC14ED9F65BFD09103F /* Pods-trySwift-dummy.m */; };
+		349C3720C2B1FF16C7B69C2A /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F0BD54EDF30DE0492D34D7AF /* ButtonCell.xib */; };
+		3901D8CB1B5D5E9E28123E9D /* Pods-trySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FD1C3B97FB53C2DBA3734B /* Pods-trySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6D274EBF111E6BBA8CCE42 /* Pods-try Extension-Timepiece-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1178C82CB76AC289DDE808F /* Pods-try Extension-Timepiece-dummy.m */; };
+		3C267C8D506D24BD36529AE6 /* VTAcknowledgementsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 402288B8869DCD6DB64243EC /* VTAcknowledgementsParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FEF44DF634A9E1659EC881B /* VTAcknowledgementsParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 275A43EFB6386B2591AAB3DC /* VTAcknowledgementsParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4663D095EBC3C82D898A22ED /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057CBE9DD5DF4595F8B9BDE /* Int+Timepiece.swift */; };
+		490BB1E7E2A9F88FC9C860F8 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC4E5671C1F566FB5A9E7D /* FXPageControl.m */; };
+		4E0761D8A2BB142ED308DAF3 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFF7D3AEBBFD5E327C90F9 /* NSCalendar+Timepiece.swift */; };
+		4F936FE627D45D75F0642614 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3B079EDADFE0708CEC745C /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E4D3740B4FFE3534824168 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AAC2AB4C61A02A1E5DF43C /* ButtonBarPagerTabStripViewController.swift */; };
+		5E33A40827124DAB1C66278B /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC5CC4DBC875857A87CF9F /* NSCalendarUnit+Timepiece.swift */; };
+		5F85C9C5766C8DF98F3C6C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */; };
+		6B5C575026F82A197BAA5F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
+		6C40BF61C121D75A52DF126F /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9935F191F8702E6A29B0 /* NSDate+Timepiece.swift */; };
+		7455913BBAA9C038147F77A9 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C3F28C1F55F80393A350D /* ButtonBarView.swift */; };
+		7780184353CEBA0A3BB1AC5C /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2057CBE9DD5DF4595F8B9BDE /* Int+Timepiece.swift */; };
+		78326BAF894DFCF81B3088D0 /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D750BBB2F9EBCAF79E4ADE3F /* DynamicColor-dummy.m */; };
+		7A4884C36099BE2DC518D159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
+		7DB16D84C30D4F8A91862563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
+		80C35C9B5A564FB4680F189F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8EE35D7B6E2DC5C4A56C73 /* UIKit.framework */; };
+		8A377AC1730CC4B985EF1560 /* Pods-try Extension-Timepiece-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDE6D1C854B3A4FFCA0F250 /* Pods-try Extension-Timepiece-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B682B5053D9EE59A9213182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
+		8C0849054D62A79A6A3A95C6 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B0AAED0CFD2B5DF79F280 /* PagerTabStripViewController.swift */; };
+		8EDB39F2CFB7FA8685C06AB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
+		8FB0A326A16D3A1F70476D0C /* VTAcknowledgementsViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0988253866B92C3831D8633A /* VTAcknowledgementsViewController.bundle */; };
+		933670588B4D1BBCAB77FD68 /* Toucan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 681D60429F71B10AE909460A /* Toucan-dummy.m */; };
+		96C8D87C041ECFA3E0EDD38A /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB65E8EB18837CAEB2C99E2 /* Duration.swift */; };
+		96CF37A5B0460A51ED7EEEA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0FFC7652203BAB1712D7C8 /* Foundation.framework */; };
+		A108544F66308085EE7572D4 /* Pods-trySwift-Timepiece-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDF704E02B1F0CABD0788A1 /* Pods-trySwift-Timepiece-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A631AE66FD256F3EB450227E /* Pods-try Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1CAF8B5DBA88BC41D528BA /* Pods-try Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF9484A334CDC469DE92652 /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C68039EFB9188F6A67932E /* NSTimeInterval+Timepiece.swift */; };
+		B126D336CF023A3967CB6F25 /* Pods-try Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D15D71117780CEE74B6F489 /* Pods-try Extension-dummy.m */; };
+		B1915A74C543B00778DD66F0 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09A31984F80A5C9D42223E /* SegmentedPagerTabStripViewController.swift */; };
+		B521829BD3E8A1B92941A4CF /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19E6E166D8D50871564539C /* BarPagerTabStripViewController.swift */; };
+		B87E00CE7294237FB1E94F4C /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE4D8ACB34DABA3CF1E79D /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0BC39FB939C13EEB2489FC7 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA133156BC43DB0BEFF53A9 /* HSL.swift */; };
+		C2CA8AFF237DFB242E3B7545 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1221B556EEA3E7772EFCAB6B /* NSDateComponents+Timepiece.swift */; };
+		C2F5FDE2B2AFCF683712E5DF /* VTAcknowledgement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825E904E632829B4BC78CF5 /* VTAcknowledgement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C5A84B535B8623E0A03FB0 /* VTAcknowledgementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9A9AD46B7F67B9567970F /* VTAcknowledgementViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CB6949C5E884582FCE1FA697 /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2AE01494E3C99C210C0DFD /* Toucan.swift */; };
+		CCADBDEDE06D697D580A59D9 /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F9935F191F8702E6A29B0 /* NSDate+Timepiece.swift */; };
+		CCD06C999965B87BE7BD3600 /* VTAcknowledgement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1337A697FD33EBE190B66FE0 /* VTAcknowledgement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D214D39CD89643C53E1D816F /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F056BA0B611B5568D79F9D27 /* XLPagerTabStrip-dummy.m */; };
+		E12306267EFA6389AE143763 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB65E8EB18837CAEB2C99E2 /* Duration.swift */; };
+		E395B43E97B43E0928A909AF /* NSTimeInterval+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C68039EFB9188F6A67932E /* NSTimeInterval+Timepiece.swift */; };
+		E64318C7290B48010594E166 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A15F45770DDDAD06516451 /* BarView.swift */; };
+		E75F7006F94561CF7E2E9204 /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB019BD1ABF3BDB1681DD919 /* DynamicColor.swift */; };
+		EA8AB63E68398435E46AEA1A /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD49807E1CD91A27112730E0 /* SwipeDirection.swift */; };
+		EC018393F4DB5B9E943A04F8 /* NSCalendarUnit+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DC5CC4DBC875857A87CF9F /* NSCalendarUnit+Timepiece.swift */; };
+		EDC13EA510ACE36EB975DB2E /* Toucan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 508B44C7296750E56450FCCF /* Toucan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEDF9738B5A4AC02EB5D9C10 /* VTAcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF023CFD690C476FC4703F2B /* VTAcknowledgementsViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F1A03FA2DAF01E15BC82F128 /* VTAcknowledgementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E65B8C4E3FA65C7DBCCEBE77 /* VTAcknowledgementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7AC058FB91D507DBDAD0C0 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495829ED6CCD80B8F619BF5 /* PagerTabStripBehaviour.swift */; };
+		FF75C71D916D5655D333EFD4 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DD29502DA40E3627A5B21D /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27D6B14E2828AE0D82FDB882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263F14994627823F105D0D09;
+			remoteInfo = XLPagerTabStrip;
+		};
+		457268CAF05D06663D565D70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C3F5BA8A2C035BA06A29C82;
+			remoteInfo = VTAcknowledgementsViewController;
+		};
+		5431ADD3D9E26363B81C5D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8C1960A343DF103EA82BD0;
+			remoteInfo = DynamicColor;
+		};
+		606130688B12725FBC14832D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EA3368AF7DAC4A5E31834C0;
+			remoteInfo = Toucan;
+		};
+		C2B5E69D56C7182865A28077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 120D02C24D2097287617AAD4;
+			remoteInfo = "Pods-trySwift-Timepiece";
+		};
+		C729D275C1330E7DAE25D60D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAFB5162E54F325A2DE2AF;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		E198F1EAD2F03232ECA83CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEC5DD734E77641DF177AEB;
+			remoteInfo = "Pods-try Extension-Timepiece";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DC5CC4DBC875857A87CF9F /* NSCalendarUnit+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendarUnit+Timepiece.swift"; path = "Sources/NSCalendarUnit+Timepiece.swift"; sourceTree = "<group>"; };
+		00FE4D8ACB34DABA3CF1E79D /* DynamicColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-umbrella.h"; sourceTree = "<group>"; };
+		049F9935F191F8702E6A29B0 /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Sources/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		04AFF7D3AEBBFD5E327C90F9 /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Sources/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		05FD1C3B97FB53C2DBA3734B /* Pods-trySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-trySwift-umbrella.h"; sourceTree = "<group>"; };
+		06946895637A3717C2DEABAF /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
+		084BC1EFB587B112F1F196E6 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		092F1700B5AA3A1D499B6FC0 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		0988253866B92C3831D8633A /* VTAcknowledgementsViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = VTAcknowledgementsViewController.bundle; sourceTree = "<group>"; };
+		0C2A6D63766DE91339D060EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D05C1915013C65F7DB51575 /* Pods-try Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-try Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DDE6D1C854B3A4FFCA0F250 /* Pods-try Extension-Timepiece-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-try Extension-Timepiece-umbrella.h"; sourceTree = "<group>"; };
+		1087C12B624E68F6F6E09399 /* Pods-try Extension-Timepiece.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-try Extension-Timepiece.xcconfig"; sourceTree = "<group>"; };
+		1221B556EEA3E7772EFCAB6B /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Sources/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		1337A697FD33EBE190B66FE0 /* VTAcknowledgement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgement.m; path = Classes/VTAcknowledgement.m; sourceTree = "<group>"; };
+		18AAC2AB4C61A02A1E5DF43C /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		1BE9A9AD46B7F67B9567970F /* VTAcknowledgementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementViewController.m; path = Classes/VTAcknowledgementViewController.m; sourceTree = "<group>"; };
+		1D3B079EDADFE0708CEC745C /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		2057CBE9DD5DF4595F8B9BDE /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		21BB4ECB7064E91B88DFEEA5 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		275A43EFB6386B2591AAB3DC /* VTAcknowledgementsParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementsParser.m; path = Classes/VTAcknowledgementsParser.m; sourceTree = "<group>"; };
+		286928506F5C901CF44C3268 /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		286A6B10A526B56642F6F6CD /* Pods-try Extension-Timepiece.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-try Extension-Timepiece.modulemap"; sourceTree = "<group>"; };
+		28A15F45770DDDAD06516451 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		2AB65E8EB18837CAEB2C99E2 /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Sources/Duration.swift; sourceTree = "<group>"; };
+		2BFC4E5671C1F566FB5A9E7D /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		2C49486C7159A0312B983789 /* Pods-trySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trySwift.release.xcconfig"; sourceTree = "<group>"; };
+		2D15D71117780CEE74B6F489 /* Pods-try Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-try Extension-dummy.m"; sourceTree = "<group>"; };
+		2D34405394F0633C22F7FA6D /* Pods-trySwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-trySwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2ED2149764CD0EB432F2A836 /* DynamicColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicColor.xcconfig; sourceTree = "<group>"; };
+		3016105117A40E0CF2DC29D2 /* Pods-try Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-try Extension.modulemap"; sourceTree = "<group>"; };
+		35C2D185F3EC843FE081F535 /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicColor.modulemap; sourceTree = "<group>"; };
+		36E8C423CD5B3F73FD6B8D8A /* Pods-try Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-try Extension-resources.sh"; sourceTree = "<group>"; };
+		3C9237CCB14198B7445CBF2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF8B3F0509084495CF09AA5 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		3DDA9586B3819658C5D4C6DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402288B8869DCD6DB64243EC /* VTAcknowledgementsParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementsParser.h; path = Classes/VTAcknowledgementsParser.h; sourceTree = "<group>"; };
+		41E6A8B3E53161299A49D23D /* VTAcknowledgementsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VTAcknowledgementsViewController-dummy.m"; sourceTree = "<group>"; };
+		4B3116D4E239EB92C7E194EC /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		508B44C7296750E56450FCCF /* Toucan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toucan-umbrella.h"; sourceTree = "<group>"; };
+		541A51F2CEC96DFBFED52263 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-trySwift-Timepiece/Info.plist"; sourceTree = "<group>"; };
+		5569E3E098ACB8738DDA7DF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567CC6B15BA4F9E288129FCC /* Pods_try_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_try_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CFA327250B45CC80C9534C /* Pods-trySwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trySwift-resources.sh"; sourceTree = "<group>"; };
+		5C6A29A4CF3F526896CC28EB /* Pods-try Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-try Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D2AE01494E3C99C210C0DFD /* Toucan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toucan.swift; path = Source/Toucan.swift; sourceTree = "<group>"; };
+		5D7BEEE72A6E512FA1D8DEDF /* Pods-trySwift-Timepiece-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-trySwift-Timepiece-prefix.pch"; path = "../Pods-trySwift-Timepiece/Pods-trySwift-Timepiece-prefix.pch"; sourceTree = "<group>"; };
+		646EA59A09E458D32D3751B7 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		6470F79A629A3A8EEDBD72D3 /* Pods-try Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-try Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		6490FB225ED939973F165D16 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DD3A90E67C809C5F6BD2A3 /* VTAcknowledgementsViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTAcknowledgementsViewController-umbrella.h"; sourceTree = "<group>"; };
+		66ECA81FB0E95FB3A95C9D7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681D60429F71B10AE909460A /* Toucan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toucan-dummy.m"; sourceTree = "<group>"; };
+		6D8EE35D7B6E2DC5C4A56C73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6EE5A1F32F2B33EDF9CF3FD9 /* Pods-try Extension-Timepiece-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-try Extension-Timepiece-prefix.pch"; sourceTree = "<group>"; };
+		72EE93C8C941538AE40B4B0B /* Pods-trySwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-trySwift-frameworks.sh"; sourceTree = "<group>"; };
+		7825E904E632829B4BC78CF5 /* VTAcknowledgement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgement.h; path = Classes/VTAcknowledgement.h; sourceTree = "<group>"; };
+		7835100683F55C139A0C0FC3 /* Toucan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Toucan.modulemap; sourceTree = "<group>"; };
+		797D2CDB1F9F2E9174F786A8 /* Toucan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toucan-prefix.pch"; sourceTree = "<group>"; };
+		7B1CAF8B5DBA88BC41D528BA /* Pods-try Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-try Extension-umbrella.h"; sourceTree = "<group>"; };
+		7BA133156BC43DB0BEFF53A9 /* HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = DynamicColor/HSL.swift; sourceTree = "<group>"; };
+		81CE14D2EA38C635E21C0848 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BD4E0C04326EF4ED3DD5A3 /* Pods-trySwift-Timepiece.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trySwift-Timepiece.xcconfig"; path = "../Pods-trySwift-Timepiece/Pods-trySwift-Timepiece.xcconfig"; sourceTree = "<group>"; };
+		9B1B0AAED0CFD2B5DF79F280 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		9D8D7403A00CC34D53DF44BA /* VTAcknowledgementsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VTAcknowledgementsViewController.xcconfig; sourceTree = "<group>"; };
+		A495829ED6CCD80B8F619BF5 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		A77DC83D839D1B3C718C5F61 /* Pods-trySwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-trySwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		A78E45052DCF00D10A136BFE /* Pods-try Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-try Extension-frameworks.sh"; sourceTree = "<group>"; };
+		A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B22F71EC4035A2E417F91694 /* Pods_trySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_trySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3646F95F848078E726688D0 /* VTAcknowledgementsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementsViewController.h; path = Classes/VTAcknowledgementsViewController.h; sourceTree = "<group>"; };
+		B79416FED1F26FF14622C586 /* Pods-trySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-trySwift.modulemap"; sourceTree = "<group>"; };
+		B9808EA3660CF4220441B5D1 /* Toucan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toucan.xcconfig; sourceTree = "<group>"; };
+		BDC217AF3A350D753F496C44 /* Pods-trySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-trySwift.debug.xcconfig"; sourceTree = "<group>"; };
+		BEDF704E02B1F0CABD0788A1 /* Pods-trySwift-Timepiece-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-trySwift-Timepiece-umbrella.h"; path = "../Pods-trySwift-Timepiece/Pods-trySwift-Timepiece-umbrella.h"; sourceTree = "<group>"; };
+		C1178C82CB76AC289DDE808F /* Pods-try Extension-Timepiece-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-try Extension-Timepiece-dummy.m"; sourceTree = "<group>"; };
+		C19E6E166D8D50871564539C /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		CF023CFD690C476FC4703F2B /* VTAcknowledgementsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VTAcknowledgementsViewController.m; path = Classes/VTAcknowledgementsViewController.m; sourceTree = "<group>"; };
+		CF0A39884B3D8EE2B6E31A95 /* Pods-trySwift-Timepiece.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-trySwift-Timepiece.modulemap"; path = "../Pods-trySwift-Timepiece/Pods-trySwift-Timepiece.modulemap"; sourceTree = "<group>"; };
+		D38A11CCEE60A58BB53455DC /* Pods-trySwift-Timepiece-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-trySwift-Timepiece-dummy.m"; path = "../Pods-trySwift-Timepiece/Pods-trySwift-Timepiece-dummy.m"; sourceTree = "<group>"; };
+		D4708DC14ED9F65BFD09103F /* Pods-trySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-trySwift-dummy.m"; sourceTree = "<group>"; };
+		D750BBB2F9EBCAF79E4ADE3F /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
+		DA09A31984F80A5C9D42223E /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		DB0FFC7652203BAB1712D7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCB354BE7968F1C1B6810A4F /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE261F9CA7809E6BA4841B62 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		DFEF2D4750C28B5BB9CFA614 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1717BBC3D041A5AEECE0652 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65B8C4E3FA65C7DBCCEBE77 /* VTAcknowledgementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VTAcknowledgementViewController.h; path = Classes/VTAcknowledgementViewController.h; sourceTree = "<group>"; };
+		E719892AD1D53E5DCB8A3553 /* Pods-try Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-try Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E8C68039EFB9188F6A67932E /* NSTimeInterval+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTimeInterval+Timepiece.swift"; path = "Sources/NSTimeInterval+Timepiece.swift"; sourceTree = "<group>"; };
+		EB019BD1ABF3BDB1681DD919 /* DynamicColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColor.swift; path = DynamicColor/DynamicColor.swift; sourceTree = "<group>"; };
+		EE66847736EFC347AB6A6458 /* Toucan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toucan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA1C37180340929E43CAFA8 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		F056BA0B611B5568D79F9D27 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		F0BD54EDF30DE0492D34D7AF /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		F1FFAB8854B4B95863B32A18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21C3F28C1F55F80393A350D /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		F23575703633C228E4540FE0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4DD29502DA40E3627A5B21D /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		F60D338D3037FDE2DF37FBE7 /* Timepiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Timepiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B370D05276953BF93E162C /* VTAcknowledgementsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VTAcknowledgementsViewController.modulemap; sourceTree = "<group>"; };
+		F97719598E0FA7FBA4C6F848 /* VTAcknowledgementsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VTAcknowledgementsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD49807E1CD91A27112730E0 /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		FECD722367C54BD8DCE30F67 /* VTAcknowledgementsViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VTAcknowledgementsViewController-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1876194D62CBD3E78AE3F61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B682B5053D9EE59A9213182 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C41C65299D1F9491FF0E677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDB39F2CFB7FA8685C06AB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567F559011F7F1E2AA00D57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4884C36099BE2DC518D159 /* Foundation.framework in Frameworks */,
+				215C7C4BA014EFF877B69B6E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7686F8341D156EDE4037DE35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C575026F82A197BAA5F26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C01E1D00B7CC92DEBB283F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2FD344F31C1D4E0F0DC1AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB34E3B7017348AC888B2297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CF37A5B0460A51ED7EEEA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7079167EF7665BD1F4CC4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1744CA27DF36A222F213050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB16D84C30D4F8A91862563 /* Foundation.framework in Frameworks */,
+				80C35C9B5A564FB4680F189F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AE708F8AA35AF28EA79F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F85C9C5766C8DF98F3C6C88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC51BBF9E408E4A9C1572E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				451E5B7B0A3BA7107347F09E /* DynamicColor */,
+				8DB140520819FEAC4F9A7D42 /* Timepiece */,
+				B17F238074F1E3EDB2893199 /* Toucan */,
+				15071998992E4B25051C5227 /* VTAcknowledgementsViewController */,
+				E0D1017AA390CBCE6B66611C /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		142AE24A9E5B99824740E26B /* Pods-trySwift */ = {
+			isa = PBXGroup;
+			children = (
+				DFEF2D4750C28B5BB9CFA614 /* Info.plist */,
+				B79416FED1F26FF14622C586 /* Pods-trySwift.modulemap */,
+				2D34405394F0633C22F7FA6D /* Pods-trySwift-acknowledgements.markdown */,
+				A77DC83D839D1B3C718C5F61 /* Pods-trySwift-acknowledgements.plist */,
+				D4708DC14ED9F65BFD09103F /* Pods-trySwift-dummy.m */,
+				72EE93C8C941538AE40B4B0B /* Pods-trySwift-frameworks.sh */,
+				58CFA327250B45CC80C9534C /* Pods-trySwift-resources.sh */,
+				05FD1C3B97FB53C2DBA3734B /* Pods-trySwift-umbrella.h */,
+				BDC217AF3A350D753F496C44 /* Pods-trySwift.debug.xcconfig */,
+				2C49486C7159A0312B983789 /* Pods-trySwift.release.xcconfig */,
+			);
+			name = "Pods-trySwift";
+			path = "Target Support Files/Pods-trySwift";
+			sourceTree = "<group>";
+		};
+		15071998992E4B25051C5227 /* VTAcknowledgementsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7825E904E632829B4BC78CF5 /* VTAcknowledgement.h */,
+				1337A697FD33EBE190B66FE0 /* VTAcknowledgement.m */,
+				402288B8869DCD6DB64243EC /* VTAcknowledgementsParser.h */,
+				275A43EFB6386B2591AAB3DC /* VTAcknowledgementsParser.m */,
+				B3646F95F848078E726688D0 /* VTAcknowledgementsViewController.h */,
+				CF023CFD690C476FC4703F2B /* VTAcknowledgementsViewController.m */,
+				E65B8C4E3FA65C7DBCCEBE77 /* VTAcknowledgementViewController.h */,
+				1BE9A9AD46B7F67B9567970F /* VTAcknowledgementViewController.m */,
+				9FF395B4C6479D64484883FF /* Resources */,
+				7E780947454AB5A2840A1BEA /* Support Files */,
+			);
+			path = VTAcknowledgementsViewController;
+			sourceTree = "<group>";
+		};
+		1A93E64290F6A87D34119821 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				A86DB4D873F83C8E3E7A28C4 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		36BBBC0AEAD2BF746408C310 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66ECA81FB0E95FB3A95C9D7E /* Info.plist */,
+				7835100683F55C139A0C0FC3 /* Toucan.modulemap */,
+				B9808EA3660CF4220441B5D1 /* Toucan.xcconfig */,
+				681D60429F71B10AE909460A /* Toucan-dummy.m */,
+				797D2CDB1F9F2E9174F786A8 /* Toucan-prefix.pch */,
+				508B44C7296750E56450FCCF /* Toucan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toucan";
+			sourceTree = "<group>";
+		};
+		451E5B7B0A3BA7107347F09E /* DynamicColor */ = {
+			isa = PBXGroup;
+			children = (
+				EB019BD1ABF3BDB1681DD919 /* DynamicColor.swift */,
+				7BA133156BC43DB0BEFF53A9 /* HSL.swift */,
+				BD51FCF0E4CC8B1DB93B2B29 /* Support Files */,
+			);
+			path = DynamicColor;
+			sourceTree = "<group>";
+		};
+		77E502980D335CDEE2ABB8F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA9586B3819658C5D4C6DD /* Info.plist */,
+				084BC1EFB587B112F1F196E6 /* XLPagerTabStrip.modulemap */,
+				EFA1C37180340929E43CAFA8 /* XLPagerTabStrip.xcconfig */,
+				F056BA0B611B5568D79F9D27 /* XLPagerTabStrip-dummy.m */,
+				646EA59A09E458D32D3751B7 /* XLPagerTabStrip-prefix.pch */,
+				1D3B079EDADFE0708CEC745C /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		7E780947454AB5A2840A1BEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2A6D63766DE91339D060EB /* Info.plist */,
+				F8B370D05276953BF93E162C /* VTAcknowledgementsViewController.modulemap */,
+				9D8D7403A00CC34D53DF44BA /* VTAcknowledgementsViewController.xcconfig */,
+				41E6A8B3E53161299A49D23D /* VTAcknowledgementsViewController-dummy.m */,
+				FECD722367C54BD8DCE30F67 /* VTAcknowledgementsViewController-prefix.pch */,
+				64DD3A90E67C809C5F6BD2A3 /* VTAcknowledgementsViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VTAcknowledgementsViewController";
+			sourceTree = "<group>";
+		};
+		8C09405A2CBA12142025C67F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				541A51F2CEC96DFBFED52263 /* Info.plist */,
+				3C9237CCB14198B7445CBF2D /* Info.plist */,
+				286A6B10A526B56642F6F6CD /* Pods-try Extension-Timepiece.modulemap */,
+				1087C12B624E68F6F6E09399 /* Pods-try Extension-Timepiece.xcconfig */,
+				C1178C82CB76AC289DDE808F /* Pods-try Extension-Timepiece-dummy.m */,
+				6EE5A1F32F2B33EDF9CF3FD9 /* Pods-try Extension-Timepiece-prefix.pch */,
+				0DDE6D1C854B3A4FFCA0F250 /* Pods-try Extension-Timepiece-umbrella.h */,
+				CF0A39884B3D8EE2B6E31A95 /* Pods-trySwift-Timepiece.modulemap */,
+				97BD4E0C04326EF4ED3DD5A3 /* Pods-trySwift-Timepiece.xcconfig */,
+				D38A11CCEE60A58BB53455DC /* Pods-trySwift-Timepiece-dummy.m */,
+				5D7BEEE72A6E512FA1D8DEDF /* Pods-trySwift-Timepiece-prefix.pch */,
+				BEDF704E02B1F0CABD0788A1 /* Pods-trySwift-Timepiece-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-try Extension-Timepiece";
+			sourceTree = "<group>";
+		};
+		8DB140520819FEAC4F9A7D42 /* Timepiece */ = {
+			isa = PBXGroup;
+			children = (
+				2AB65E8EB18837CAEB2C99E2 /* Duration.swift */,
+				2057CBE9DD5DF4595F8B9BDE /* Int+Timepiece.swift */,
+				04AFF7D3AEBBFD5E327C90F9 /* NSCalendar+Timepiece.swift */,
+				00DC5CC4DBC875857A87CF9F /* NSCalendarUnit+Timepiece.swift */,
+				049F9935F191F8702E6A29B0 /* NSDate+Timepiece.swift */,
+				1221B556EEA3E7772EFCAB6B /* NSDateComponents+Timepiece.swift */,
+				E8C68039EFB9188F6A67932E /* NSTimeInterval+Timepiece.swift */,
+				286928506F5C901CF44C3268 /* String+Timepiece.swift */,
+				8C09405A2CBA12142025C67F /* Support Files */,
+			);
+			path = Timepiece;
+			sourceTree = "<group>";
+		};
+		8E1E2861588673F5909DC399 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E282D25A748DC413C3CB9DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98465F05A4F896F69B0CFA27 /* Pods-try Extension */,
+				142AE24A9E5B99824740E26B /* Pods-trySwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		98465F05A4F896F69B0CFA27 /* Pods-try Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5569E3E098ACB8738DDA7DF6 /* Info.plist */,
+				3016105117A40E0CF2DC29D2 /* Pods-try Extension.modulemap */,
+				5C6A29A4CF3F526896CC28EB /* Pods-try Extension-acknowledgements.markdown */,
+				0D05C1915013C65F7DB51575 /* Pods-try Extension-acknowledgements.plist */,
+				2D15D71117780CEE74B6F489 /* Pods-try Extension-dummy.m */,
+				A78E45052DCF00D10A136BFE /* Pods-try Extension-frameworks.sh */,
+				36E8C423CD5B3F73FD6B8D8A /* Pods-try Extension-resources.sh */,
+				7B1CAF8B5DBA88BC41D528BA /* Pods-try Extension-umbrella.h */,
+				6470F79A629A3A8EEDBD72D3 /* Pods-try Extension.debug.xcconfig */,
+				E719892AD1D53E5DCB8A3553 /* Pods-try Extension.release.xcconfig */,
+			);
+			name = "Pods-try Extension";
+			path = "Target Support Files/Pods-try Extension";
+			sourceTree = "<group>";
+		};
+		9FF395B4C6479D64484883FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0988253866B92C3831D8633A /* VTAcknowledgementsViewController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6F367F57B22E7FB80B6885F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1717BBC3D041A5AEECE0652 /* DynamicColor.framework */,
+				567CC6B15BA4F9E288129FCC /* Pods_try_Extension.framework */,
+				B22F71EC4035A2E417F91694 /* Pods_trySwift.framework */,
+				F60D338D3037FDE2DF37FBE7 /* Timepiece.framework */,
+				DCB354BE7968F1C1B6810A4F /* Timepiece.framework */,
+				EE66847736EFC347AB6A6458 /* Toucan.framework */,
+				F97719598E0FA7FBA4C6F848 /* VTAcknowledgementsViewController.framework */,
+				6490FB225ED939973F165D16 /* XLPagerTabStrip.bundle */,
+				81CE14D2EA38C635E21C0848 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAF0B6391DA5AE9DAB6281C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FFC7652203BAB1712D7C8 /* Foundation.framework */,
+				6D8EE35D7B6E2DC5C4A56C73 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B17F238074F1E3EDB2893199 /* Toucan */ = {
+			isa = PBXGroup;
+			children = (
+				5D2AE01494E3C99C210C0DFD /* Toucan.swift */,
+				36BBBC0AEAD2BF746408C310 /* Support Files */,
+			);
+			path = Toucan;
+			sourceTree = "<group>";
+		};
+		BD51FCF0E4CC8B1DB93B2B29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C2D185F3EC843FE081F535 /* DynamicColor.modulemap */,
+				2ED2149764CD0EB432F2A836 /* DynamicColor.xcconfig */,
+				D750BBB2F9EBCAF79E4ADE3F /* DynamicColor-dummy.m */,
+				06946895637A3717C2DEABAF /* DynamicColor-prefix.pch */,
+				00FE4D8ACB34DABA3CF1E79D /* DynamicColor-umbrella.h */,
+				F1FFAB8854B4B95863B32A18 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicColor";
+			sourceTree = "<group>";
+		};
+		C23E54059E1A244169A1DE24 = {
+			isa = PBXGroup;
+			children = (
+				F23575703633C228E4540FE0 /* Podfile */,
+				F5F7B6BD7FF547786B35E927 /* Frameworks */,
+				0DC51BBF9E408E4A9C1572E8 /* Pods */,
+				A6F367F57B22E7FB80B6885F /* Products */,
+				8E282D25A748DC413C3CB9DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0D1017AA390CBCE6B66611C /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				C19E6E166D8D50871564539C /* BarPagerTabStripViewController.swift */,
+				28A15F45770DDDAD06516451 /* BarView.swift */,
+				4B3116D4E239EB92C7E194EC /* BaseButtonBarPagerTabStripViewController.swift */,
+				18AAC2AB4C61A02A1E5DF43C /* ButtonBarPagerTabStripViewController.swift */,
+				F21C3F28C1F55F80393A350D /* ButtonBarView.swift */,
+				21BB4ECB7064E91B88DFEEA5 /* ButtonBarViewCell.swift */,
+				F0BD54EDF30DE0492D34D7AF /* ButtonCell.xib */,
+				F4DD29502DA40E3627A5B21D /* FXPageControl.h */,
+				2BFC4E5671C1F566FB5A9E7D /* FXPageControl.m */,
+				3CF8B3F0509084495CF09AA5 /* IndicatorInfo.swift */,
+				A495829ED6CCD80B8F619BF5 /* PagerTabStripBehaviour.swift */,
+				092F1700B5AA3A1D499B6FC0 /* PagerTabStripError.swift */,
+				9B1B0AAED0CFD2B5DF79F280 /* PagerTabStripViewController.swift */,
+				DA09A31984F80A5C9D42223E /* SegmentedPagerTabStripViewController.swift */,
+				FD49807E1CD91A27112730E0 /* SwipeDirection.swift */,
+				DE261F9CA7809E6BA4841B62 /* TwitterPagerTabStripViewController.swift */,
+				8E1E2861588673F5909DC399 /* Resources */,
+				77E502980D335CDEE2ABB8F7 /* Support Files */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		F5F7B6BD7FF547786B35E927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF0B6391DA5AE9DAB6281C /* iOS */,
+				1A93E64290F6A87D34119821 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		381199EC08072E694D30028A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A631AE66FD256F3EB450227E /* Pods-try Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468AB30936EF9C5664BC90FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF75C71D916D5655D333EFD4 /* FXPageControl.h in Headers */,
+				4F936FE627D45D75F0642614 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAE5558521F479CC66E90D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87E00CE7294237FB1E94F4C /* DynamicColor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6986AEF8A580A51283BD8D1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC13EA510ACE36EB975DB2E /* Toucan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBDE9ACC3D254B8499A767F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F5FDE2B2AFCF683712E5DF /* VTAcknowledgement.h in Headers */,
+				3C267C8D506D24BD36529AE6 /* VTAcknowledgementsParser.h in Headers */,
+				2BEDE5B50268E2C8273950E4 /* VTAcknowledgementsViewController-umbrella.h in Headers */,
+				2FD087A1B38AB351EF402636 /* VTAcknowledgementsViewController.h in Headers */,
+				F1A03FA2DAF01E15BC82F128 /* VTAcknowledgementViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D82F62F927C7D43D73699 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A377AC1730CC4B985EF1560 /* Pods-try Extension-Timepiece-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F757D626C70AC22A64844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3901D8CB1B5D5E9E28123E9D /* Pods-trySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52B756229D8A2C471A02F25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A108544F66308085EE7572D4 /* Pods-trySwift-Timepiece-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		041910E914F3EC023A80814C /* Pods-trySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D8DC730F7EE951DBA0FB85 /* Build configuration list for PBXNativeTarget "Pods-trySwift" */;
+			buildPhases = (
+				EFF5BDB658DFEC689B31A792 /* Sources */,
+				1876194D62CBD3E78AE3F61F /* Frameworks */,
+				C20F757D626C70AC22A64844 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				804028A3255B90BAE137FF92 /* PBXTargetDependency */,
+				84F399B844FD817D268FD82C /* PBXTargetDependency */,
+				FD652BADDF73376E03F77256 /* PBXTargetDependency */,
+				53122DAC956814C31308C966 /* PBXTargetDependency */,
+				C8BBCCCA04E22ACEBD39A076 /* PBXTargetDependency */,
+			);
+			name = "Pods-trySwift";
+			productName = "Pods-trySwift";
+			productReference = B22F71EC4035A2E417F91694 /* Pods_trySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		120D02C24D2097287617AAD4 /* Pods-trySwift-Timepiece */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3382364DAA60E0EC009A5A3D /* Build configuration list for PBXNativeTarget "Pods-trySwift-Timepiece" */;
+			buildPhases = (
+				EAC00BD0F347D21DF3FF8C0B /* Sources */,
+				7686F8341D156EDE4037DE35 /* Frameworks */,
+				F52B756229D8A2C471A02F25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-trySwift-Timepiece";
+			productName = "Pods-trySwift-Timepiece";
+			productReference = DCB354BE7968F1C1B6810A4F /* Timepiece.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		263F14994627823F105D0D09 /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF041BB1CBDE7EC500F59281 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				27D1CA0A4F43E5E18925A48C /* Sources */,
+				567F559011F7F1E2AA00D57A /* Frameworks */,
+				B0648042BFACFF21725F12AA /* Resources */,
+				468AB30936EF9C5664BC90FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DBE002D155BEF8415EE7BC /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 81CE14D2EA38C635E21C0848 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A8C1960A343DF103EA82BD0 /* DynamicColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544CE540B7A9948449C0EF3E /* Build configuration list for PBXNativeTarget "DynamicColor" */;
+			buildPhases = (
+				9AAB2AE5139A0B2C3BDD591C /* Sources */,
+				D1744CA27DF36A222F213050 /* Frameworks */,
+				4CAE5558521F479CC66E90D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicColor;
+			productName = DynamicColor;
+			productReference = E1717BBC3D041A5AEECE0652 /* DynamicColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C3F5BA8A2C035BA06A29C82 /* VTAcknowledgementsViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D197A90DA94F88A7B6C638D /* Build configuration list for PBXNativeTarget "VTAcknowledgementsViewController" */;
+			buildPhases = (
+				9EB055F18165717C32FF1E11 /* Sources */,
+				3C41C65299D1F9491FF0E677 /* Frameworks */,
+				9EBDE9ACC3D254B8499A767F /* Headers */,
+				998E84D954B0D47ED8EB4E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTAcknowledgementsViewController;
+			productName = VTAcknowledgementsViewController;
+			productReference = F97719598E0FA7FBA4C6F848 /* VTAcknowledgementsViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EA3368AF7DAC4A5E31834C0 /* Toucan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011715A6916713E12E43B672 /* Build configuration list for PBXNativeTarget "Toucan" */;
+			buildPhases = (
+				009AEA786710340632250B53 /* Sources */,
+				BB34E3B7017348AC888B2297 /* Frameworks */,
+				6986AEF8A580A51283BD8D1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toucan;
+			productName = Toucan;
+			productReference = EE66847736EFC347AB6A6458 /* Toucan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ADEC5DD734E77641DF177AEB /* Pods-try Extension-Timepiece */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8A0837B3800697F4E72D42 /* Build configuration list for PBXNativeTarget "Pods-try Extension-Timepiece" */;
+			buildPhases = (
+				561866197EBE92743A192381 /* Sources */,
+				83C01E1D00B7CC92DEBB283F /* Frameworks */,
+				AC4D82F62F927C7D43D73699 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-try Extension-Timepiece";
+			productName = "Pods-try Extension-Timepiece";
+			productReference = F60D338D3037FDE2DF37FBE7 /* Timepiece.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6FAFB5162E54F325A2DE2AF /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066CAF7472B93C044C7EAB79 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				ED6E5F52194445152D084A73 /* Sources */,
+				C7079167EF7665BD1F4CC4B5 /* Frameworks */,
+				CC7F277EC76F729D3BC54117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 6490FB225ED939973F165D16 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E85EB4BEFB14FD4D1174AB6D /* Pods-try Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D66F4EA85AA4CA00C776A9 /* Build configuration list for PBXNativeTarget "Pods-try Extension" */;
+			buildPhases = (
+				3E6EB86007961F9723B38A9C /* Sources */,
+				D1AE708F8AA35AF28EA79F71 /* Frameworks */,
+				381199EC08072E694D30028A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DCB4B1C0D38192BC308760 /* PBXTargetDependency */,
+			);
+			name = "Pods-try Extension";
+			productName = "Pods-try Extension";
+			productReference = 567CC6B15BA4F9E288129FCC /* Pods_try_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0CB4E4E98ABEEA48F2C7AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 7EC6A9466D81C579DFEAA8BD /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C23E54059E1A244169A1DE24;
+			productRefGroup = A6F367F57B22E7FB80B6885F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8C1960A343DF103EA82BD0 /* DynamicColor */,
+				E85EB4BEFB14FD4D1174AB6D /* Pods-try Extension */,
+				ADEC5DD734E77641DF177AEB /* Pods-try Extension-Timepiece */,
+				041910E914F3EC023A80814C /* Pods-trySwift */,
+				120D02C24D2097287617AAD4 /* Pods-trySwift-Timepiece */,
+				7EA3368AF7DAC4A5E31834C0 /* Toucan */,
+				7C3F5BA8A2C035BA06A29C82 /* VTAcknowledgementsViewController */,
+				263F14994627823F105D0D09 /* XLPagerTabStrip */,
+				D6FAFB5162E54F325A2DE2AF /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998E84D954B0D47ED8EB4E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB0A326A16D3A1F70476D0C /* VTAcknowledgementsViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0648042BFACFF21725F12AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B2A0C8D2D635F96B776426 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F277EC76F729D3BC54117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAA744E8A651E9DF3D37826 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009AEA786710340632250B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933670588B4D1BBCAB77FD68 /* Toucan-dummy.m in Sources */,
+				CB6949C5E884582FCE1FA697 /* Toucan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D1CA0A4F43E5E18925A48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B521829BD3E8A1B92941A4CF /* BarPagerTabStripViewController.swift in Sources */,
+				E64318C7290B48010594E166 /* BarView.swift in Sources */,
+				103E172A257C0F86F355CEB1 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				53E4D3740B4FFE3534824168 /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				7455913BBAA9C038147F77A9 /* ButtonBarView.swift in Sources */,
+				28EF2FB082DC707874BF557E /* ButtonBarViewCell.swift in Sources */,
+				349C3720C2B1FF16C7B69C2A /* ButtonCell.xib in Sources */,
+				490BB1E7E2A9F88FC9C860F8 /* FXPageControl.m in Sources */,
+				115BDA0E7E94C7E495F2AB30 /* IndicatorInfo.swift in Sources */,
+				FE7AC058FB91D507DBDAD0C0 /* PagerTabStripBehaviour.swift in Sources */,
+				1D21A5AD0EE9A694F40C0605 /* PagerTabStripError.swift in Sources */,
+				8C0849054D62A79A6A3A95C6 /* PagerTabStripViewController.swift in Sources */,
+				B1915A74C543B00778DD66F0 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				EA8AB63E68398435E46AEA1A /* SwipeDirection.swift in Sources */,
+				31AC0416B682B4579702C5D9 /* TwitterPagerTabStripViewController.swift in Sources */,
+				D214D39CD89643C53E1D816F /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6EB86007961F9723B38A9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B126D336CF023A3967CB6F25 /* Pods-try Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561866197EBE92743A192381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C8D87C041ECFA3E0EDD38A /* Duration.swift in Sources */,
+				7780184353CEBA0A3BB1AC5C /* Int+Timepiece.swift in Sources */,
+				4E0761D8A2BB142ED308DAF3 /* NSCalendar+Timepiece.swift in Sources */,
+				5E33A40827124DAB1C66278B /* NSCalendarUnit+Timepiece.swift in Sources */,
+				CCADBDEDE06D697D580A59D9 /* NSDate+Timepiece.swift in Sources */,
+				0AA2CC4CA1EDF5A349CF2D95 /* NSDateComponents+Timepiece.swift in Sources */,
+				ABF9484A334CDC469DE92652 /* NSTimeInterval+Timepiece.swift in Sources */,
+				3B6D274EBF111E6BBA8CCE42 /* Pods-try Extension-Timepiece-dummy.m in Sources */,
+				071ECCA9DCF256482B10EFE3 /* String+Timepiece.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAB2AE5139A0B2C3BDD591C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78326BAF894DFCF81B3088D0 /* DynamicColor-dummy.m in Sources */,
+				E75F7006F94561CF7E2E9204 /* DynamicColor.swift in Sources */,
+				C0BC39FB939C13EEB2489FC7 /* HSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB055F18165717C32FF1E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD06C999965B87BE7BD3600 /* VTAcknowledgement.m in Sources */,
+				3FEF44DF634A9E1659EC881B /* VTAcknowledgementsParser.m in Sources */,
+				0289DE8DC6869FA07D4F9A4D /* VTAcknowledgementsViewController-dummy.m in Sources */,
+				EEDF9738B5A4AC02EB5D9C10 /* VTAcknowledgementsViewController.m in Sources */,
+				C6C5A84B535B8623E0A03FB0 /* VTAcknowledgementViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC00BD0F347D21DF3FF8C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12306267EFA6389AE143763 /* Duration.swift in Sources */,
+				4663D095EBC3C82D898A22ED /* Int+Timepiece.swift in Sources */,
+				2A85D4AB3E4E0B0DBCCCBEF1 /* NSCalendar+Timepiece.swift in Sources */,
+				EC018393F4DB5B9E943A04F8 /* NSCalendarUnit+Timepiece.swift in Sources */,
+				6C40BF61C121D75A52DF126F /* NSDate+Timepiece.swift in Sources */,
+				C2CA8AFF237DFB242E3B7545 /* NSDateComponents+Timepiece.swift in Sources */,
+				E395B43E97B43E0928A909AF /* NSTimeInterval+Timepiece.swift in Sources */,
+				0ADCFAB554892FA1C7948923 /* Pods-trySwift-Timepiece-dummy.m in Sources */,
+				20FAAE4E7A11923E9E5B68E7 /* String+Timepiece.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6E5F52194445152D084A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF5BDB658DFEC689B31A792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FEB9DDFC8D5AD0B8DAD27C /* Pods-trySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10DBE002D155BEF8415EE7BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = D6FAFB5162E54F325A2DE2AF /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = C729D275C1330E7DAE25D60D /* PBXContainerItemProxy */;
+		};
+		53122DAC956814C31308C966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VTAcknowledgementsViewController;
+			target = 7C3F5BA8A2C035BA06A29C82 /* VTAcknowledgementsViewController */;
+			targetProxy = 457268CAF05D06663D565D70 /* PBXContainerItemProxy */;
+		};
+		804028A3255B90BAE137FF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicColor;
+			target = 5A8C1960A343DF103EA82BD0 /* DynamicColor */;
+			targetProxy = 5431ADD3D9E26363B81C5D6A /* PBXContainerItemProxy */;
+		};
+		84F399B844FD817D268FD82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-trySwift-Timepiece";
+			target = 120D02C24D2097287617AAD4 /* Pods-trySwift-Timepiece */;
+			targetProxy = C2B5E69D56C7182865A28077 /* PBXContainerItemProxy */;
+		};
+		89DCB4B1C0D38192BC308760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-try Extension-Timepiece";
+			target = ADEC5DD734E77641DF177AEB /* Pods-try Extension-Timepiece */;
+			targetProxy = E198F1EAD2F03232ECA83CD1 /* PBXContainerItemProxy */;
+		};
+		C8BBCCCA04E22ACEBD39A076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 263F14994627823F105D0D09 /* XLPagerTabStrip */;
+			targetProxy = 27D6B14E2828AE0D82FDB882 /* PBXContainerItemProxy */;
+		};
+		FD652BADDF73376E03F77256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toucan;
+			target = 7EA3368AF7DAC4A5E31834C0 /* Toucan */;
+			targetProxy = 606130688B12725FBC14832D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06745A879683F8455C70D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8D7403A00CC34D53DF44BA /* VTAcknowledgementsViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VTAcknowledgementsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VTAcknowledgementsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1141AFF7275B0CD6AD56B3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA1C37180340929E43CAFA8 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15BEA653A849153E1701B945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9808EA3660CF4220441B5D1 /* Toucan.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toucan/Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toucan/Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		338A990305AA969A01CB4903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E719892AD1D53E5DCB8A3553 /* Pods-try Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-try Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-try Extension/Pods-try Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_try_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4D84A6C5E2C26D4132CA5189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BD4E0C04326EF4ED3DD5A3 /* Pods-trySwift-Timepiece.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-trySwift-Timepiece/Pods-trySwift-Timepiece-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-trySwift-Timepiece/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-trySwift-Timepiece/Pods-trySwift-Timepiece.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C16414F57D3BB6630C51582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1087C12B624E68F6F6E09399 /* Pods-try Extension-Timepiece.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-try Extension-Timepiece/Pods-try Extension-Timepiece-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-try Extension-Timepiece/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-try Extension-Timepiece/Pods-try Extension-Timepiece.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8722A76E5899C9425A6E84F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8D7403A00CC34D53DF44BA /* VTAcknowledgementsViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VTAcknowledgementsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VTAcknowledgementsViewController/VTAcknowledgementsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VTAcknowledgementsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88C9F5CA09C44D7291C296C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED2149764CD0EB432F2A836 /* DynamicColor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96B94A5D832CB073F2EB21AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9F369A1BAAA42B2FB62CD858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA1C37180340929E43CAFA8 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ACBADA50D15BF7DBEE10A90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC217AF3A350D753F496C44 /* Pods-trySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-trySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trySwift/Pods-trySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_trySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBCE0189988A1B6FDED14AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA1C37180340929E43CAFA8 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C5C97F27D2EA8DC468148B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BD4E0C04326EF4ED3DD5A3 /* Pods-trySwift-Timepiece.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-trySwift-Timepiece/Pods-trySwift-Timepiece-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-trySwift-Timepiece/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-trySwift-Timepiece/Pods-trySwift-Timepiece.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDF4EAAC097C2C887EAA7FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED2149764CD0EB432F2A836 /* DynamicColor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFBF01DF1B84E9DC8E9CFE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA1C37180340929E43CAFA8 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9D4E56CCE261F9E18F8F29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6470F79A629A3A8EEDBD72D3 /* Pods-try Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-try Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-try Extension/Pods-try Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_try_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F116201B7909E5BD77A32597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C49486C7159A0312B983789 /* Pods-trySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-trySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-trySwift/Pods-trySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_trySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F12D5EBAA60ADAEC12CE4851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F7B380EB16B0DEF2CA219C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9808EA3660CF4220441B5D1 /* Toucan.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toucan/Toucan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toucan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toucan/Toucan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Toucan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA55EFBB4519240332BE5074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1087C12B624E68F6F6E09399 /* Pods-try Extension-Timepiece.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-try Extension-Timepiece/Pods-try Extension-Timepiece-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-try Extension-Timepiece/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-try Extension-Timepiece/Pods-try Extension-Timepiece.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Timepiece;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011715A6916713E12E43B672 /* Build configuration list for PBXNativeTarget "Toucan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BEA653A849153E1701B945 /* Debug */,
+				F7B380EB16B0DEF2CA219C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066CAF7472B93C044C7EAB79 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F369A1BAAA42B2FB62CD858 /* Debug */,
+				BBCE0189988A1B6FDED14AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3382364DAA60E0EC009A5A3D /* Build configuration list for PBXNativeTarget "Pods-trySwift-Timepiece" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5C97F27D2EA8DC468148B61 /* Debug */,
+				4D84A6C5E2C26D4132CA5189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D197A90DA94F88A7B6C638D /* Build configuration list for PBXNativeTarget "VTAcknowledgementsViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8722A76E5899C9425A6E84F6 /* Debug */,
+				06745A879683F8455C70D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8A0837B3800697F4E72D42 /* Build configuration list for PBXNativeTarget "Pods-try Extension-Timepiece" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C16414F57D3BB6630C51582 /* Debug */,
+				FA55EFBB4519240332BE5074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544CE540B7A9948449C0EF3E /* Build configuration list for PBXNativeTarget "DynamicColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C9F5CA09C44D7291C296C9 /* Debug */,
+				CDF4EAAC097C2C887EAA7FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC6A9466D81C579DFEAA8BD /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B94A5D832CB073F2EB21AA /* Debug */,
+				F12D5EBAA60ADAEC12CE4851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D8DC730F7EE951DBA0FB85 /* Build configuration list for PBXNativeTarget "Pods-trySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBADA50D15BF7DBEE10A90F /* Debug */,
+				F116201B7909E5BD77A32597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF041BB1CBDE7EC500F59281 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF01DF1B84E9DC8E9CFE2B /* Debug */,
+				1141AFF7275B0CD6AD56B3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D66F4EA85AA4CA00C776A9 /* Build configuration list for PBXNativeTarget "Pods-try Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D4E56CCE261F9E18F8F29B /* Debug */,
+				338A990305AA969A01CB4903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0CB4E4E98ABEEA48F2C7AE /* Project object */;
+}
